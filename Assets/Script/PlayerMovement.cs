@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("horizontal", Mathf.Abs(horizontal));
         anim.SetFloat("vertical", Mathf.Abs(vertical));
 
-        rb.velocity = new Vector2(horizontal,vertical) * speed;
+        rb.linearVelocity = new Vector2(horizontal,vertical) * speed;
     }
     void Flip()
     {
