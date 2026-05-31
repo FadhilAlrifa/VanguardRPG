@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("horizontal", Mathf.Abs(horizontal));
             anim.SetFloat("vertical", Mathf.Abs(vertical));
 
-            rb.velocity = new Vector2(horizontal,vertical) * speed;
+            rb.linearVelocity = new Vector2(horizontal,vertical) * speed;
         }
     }
     void Flip()
@@ -42,13 +42,13 @@ public class PlayerMovement : MonoBehaviour
     {
         isKnockedBack = true;
         Vector2 direction = (transform.position - enemy.position).normalized;
-        rb.velocity = direction * force;
+        rb.linearVelocity = direction * force;
         StartCoroutine(KnockbackCounter(stunTime));
     }
     IEnumerator KnockbackCounter(float stunTime)
     {
         yield return new WaitForSeconds(stunTime);
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         isKnockedBack = false;
     }
 }
