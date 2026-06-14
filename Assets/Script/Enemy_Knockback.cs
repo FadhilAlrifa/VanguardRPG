@@ -18,14 +18,14 @@ public class Enemy_Knockback : MonoBehaviour
         enemy_Movement.ChangeState(EnemyState.Knockback);
         StartCoroutine(StunTimer(knockbackTime, stunTime));
         Vector2 direction = (transform.position - playerTransform.position).normalized;
-        rb.velocity = direction *knockbackForce;
+        rb.linearVelocity = direction *knockbackForce;
         Debug.Log("Knockdoewn");
     }
 
     IEnumerator StunTimer(float knockbackTime, float stunTime)
     {
         yield return new WaitForSeconds(knockbackTime);
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(stunTime);
         enemy_Movement.ChangeState(EnemyState.Idle);
     }
