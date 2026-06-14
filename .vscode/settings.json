@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "VanguardRPG.slnx"
+    "dotnet.defaultSolution": "ProjectAkhirGame.slnx"
 }
