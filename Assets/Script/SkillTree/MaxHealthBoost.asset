@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee197d4d823dd3e4dbb6bba29facd73e, type: 3}
+  m_Name: MaxHealthBoost
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  skillName: Max Health Boost
+  maxLevel: 5
+  skillIcon: {fileID: 5439035362923688692, guid: 11d4f77cf27deae4f8a91b57e77d0192, type: 3}
