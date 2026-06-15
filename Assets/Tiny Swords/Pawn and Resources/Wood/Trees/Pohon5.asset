@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Pohon5
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -9130447484784962851, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -1829410706, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -1346714800, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: 491982003, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: 1054138722, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -1259712221, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -1251254536, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -513482869, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: -1955708, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  - {fileID: 1457721063, guid: c5a6a054a96fc4546851fdd38f73c8bb, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
